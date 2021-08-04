@@ -1,0 +1,11 @@
+{
+  "name": "book-playlist-react-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker-compose --file ./dev/docker-compose.yml up -d",
+    "stop": "docker-compose --file ./dev/docker-compose.yml down"
+  },
+  "author": "kien123465k <tran123456k@gmail.com>"
+}
